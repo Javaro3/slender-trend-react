@@ -3,7 +3,7 @@ import WeeklyTable from '../components/WeeklyTable/WeeklyTable';
 import ResponseTimeService from '../API/ResponseTimeService';
 
 const ResponseTimePage = () => {
-  const columns = ['date', 'count', "responseTime"];
+  const columns = ['date', 'count', "response_time"];
   const [data, setData] = useState(null);
   const [isLoadig, setIsLoadig] = useState(true);
   

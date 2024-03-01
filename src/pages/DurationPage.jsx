@@ -3,7 +3,7 @@ import WeeklyTable from '../components/WeeklyTable/WeeklyTable';
 import DurationService from '../API/DurationService';
 
 const DurationPage = () => {
-  const columns = ['date', 'agentsChattingDuration', "count", "duration"];
+  const columns = ['date', 'agents_chatting_duration', "count", "duration"];
   const [data, setData] = useState(null);
   const [isLoadig, setIsLoadig] = useState(true);
   
